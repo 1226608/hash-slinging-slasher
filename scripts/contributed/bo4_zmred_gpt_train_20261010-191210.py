@@ -72,8 +72,8 @@ def train(rows, epochs, lr, bs=512):
 
 
 train(data, a.epochs, 1e-3)
-model.save_pretrained(os.path.join(a.out, 'base'))
+model.save_pretrained(os.path.join(a.out, 'base'), safe_serialization=True)
 if focus and a.focus_epochs:
     train(focus + random.sample(data, min(len(data), 4 * len(focus))), a.focus_epochs, 2e-4, bs=256)
-model.save_pretrained(os.path.join(a.out, 'focus'))
+model.save_pretrained(os.path.join(a.out, 'focus'), safe_serialization=True)
 print('saved', a.out)

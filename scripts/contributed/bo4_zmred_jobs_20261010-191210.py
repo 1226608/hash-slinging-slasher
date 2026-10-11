@@ -1,15 +1,27 @@
 """jobs.txt for pair.c: per remaining model, its CLIP neighbours' names as skeletons, its described words."""
 import json, os, re, sys
+from pathlib import Path
 import numpy as np
 from nltk.corpus import wordnet as wn
-D = r'C:\tmp\bo4\glossary'
-sys.argv = ['x']
-exec(open(os.path.join(D, 'merge_wni.py')).read().split('# pool of every BO4 id')[0])
-idx = load(os.path.join(PI, 'fnv1a_xmodels.wni'))
-by60 = {k & 0x0FFFFFFFFFFFFFFF: v for k, v in idx.items()}
+D = os.environ.get('BO4_GLOSSARY_DIR', r'C:\tmp\bo4\glossary')
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / 'scripts'))
+import snapshot
+
+# Read verified name data through the repository reader; never execute a local WNI script.
+by60 = {snapshot.fnv1a(name, 'BLKOPS04', 'xmodel') & 0x0FFFFFFFFFFFFFFF: name
+        for name in snapshot.table_names('fnv1a_xmodels')}
+with (ROOT / 'all_names' / 'blkops04' / 'xmodel.txt').open(encoding='utf-8') as handle:
+    for line in handle:
+        raw, sep, name = line.rstrip('\r\n').partition(',')
+        if not sep:
+            continue
+        key = int(raw, 16)
+        if snapshot.fnv1a(name, 'BLKOPS04', 'xmodel') & snapshot.ID_MASK == key:
+            by60[key & 0x0FFFFFFFFFFFFFFF] = name
 
 names = open(os.path.join(D, 'out', 'clip_names.txt')).read().split()
-emb = np.load(os.path.join(D, 'out', 'clip.npy')).astype(np.float32)
+emb = np.load(os.path.join(D, 'out', 'clip.npy'), allow_pickle=False).astype(np.float32)
 emb /= np.linalg.norm(emb, axis=1, keepdims=True)
 real = []
 for n in names:
@@ -56,6 +68,8 @@ with open(os.path.join(D, 'jobs.txt'), 'w') as f:
         sim[~named] = -9
         sk = set()
         for j in np.argsort(-sim)[:K]:
+            if not named[j]:
+                continue
             r = real[j].lower()
             sk.add(r)
             t = r.split('_')

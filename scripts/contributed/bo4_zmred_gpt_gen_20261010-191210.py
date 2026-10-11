@@ -17,7 +17,7 @@ ap.add_argument('--top-p', type=float, default=0.98)
 a = ap.parse_args()
 vocab = json.load(open(os.path.join(os.path.dirname(a.model), 'vocab.json')))
 idx = {t: i for i, t in enumerate(vocab)}
-model = GPT2LMHeadModel.from_pretrained(a.model).cuda().eval().to(torch.bfloat16)
+model = GPT2LMHeadModel.from_pretrained(a.model, local_files_only=True, use_safetensors=True, trust_remote_code=False).cuda().eval().to(torch.bfloat16)
 known = set(l.strip().split(',')[-1] for l in open(a.known)) if a.known else set()
 jobs = [(l.split()[0], int(l.split()[1])) for l in open(a.prefix_file) if l.strip()] if a.prefix_file else [(a.prefix, a.n)]
 seen, t, out = set(), time.time(), sys.stdout
