@@ -1,0 +1,7 @@
+11df72af2878cdd5,physics/iw9/iw9_phy_plastic_bottle_07.tnn.85.48000.all
+1c954ac05b6e4724,physics/iw9/iw9_phy_plastic_bottle_02.tnn.85.48000.all
+374e7200c4b9a132,physics/iw9/iw9_phy_plastic_bottle_04.tnn.85.48000.all
+44410fb9261b38e3,physics/iw9/iw9_phy_plastic_bottle_01.tnn.85.48000.all
+4b434439f2b6f158,physics/iw9/iw9_phy_plastic_bottle_06.tnn.85.48000.all
+57be1098ef555a37,physics/iw9/iw9_phy_plastic_bottle_05.tnn.85.48000.all
+7b413388ff0b18b1,physics/iw9/iw9_phy_plastic_bottle_03.tnn.85.48000.all
