@@ -4,11 +4,11 @@ One-token substitution (token_substitution.py) cannot reach a name two steps fro
 known. Here every pair of slots of every known name is crossed, but each slot only takes the words
 its place calls for: the words seen after the same left neighbour or before the same right
 neighbour (digits folded, so `_01_` and `_07_` are one neighbour), the `--cap` commonest of them.
-`token_pair.c` does the crossing and prints the hits; this builds its inputs for one asset type
-over several games at once and prints the hit names:
+This builds inputs for one asset type over several modern games. The original native backend
+source is absent from this submission, so this wrapper never launches it. To import a text
+result, pass --hits-file; every result is rehashed against the requested typed targets:
 
-    gcc -O3 -fopenmp -o <work dir>/token_pair contrib/token_pair.c
-    python contrib/token_pair.py <kind> <work dir> <names.tsv>... [--cap 60] [--min-count 2] [--count]
+    python contrib/token_pair.py <kind> <work dir> <names.tsv>... [--cap 60] [--min-count 2] [--count] [--hits-file <hits.txt>]
         | confirm_list - --game <TAG> --script contrib/token_pair.py
 
     names.tsv: <kind> <tab> <id hex> <tab> <name>, the known names of one game, the file named
@@ -17,12 +17,13 @@ over several games at once and prints the hit names:
 import collections
 import os
 import re
-import subprocess
+from pathlib import Path
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = str(Path(__file__).resolve().parents[2])
 sys.path.insert(0, os.path.join(ROOT, 'scripts'))
 import snapshot  # noqa: E402
+from token_hits_20261011 import read_hits  # noqa: E402
 
 M63 = (1 << 63) - 1
 IW, TA = '47f5817a5ef961ba', 'cbf29ce484222325'
@@ -44,17 +45,22 @@ def option(args, flag, default):
 
 def main():
     args = sys.argv[1:]
+    hits_file = option(args, '--hits-file', '')
     counting = '--count' in args
     if counting:
         args.remove('--count')
     cap = option(args, '--cap', 60)
     min_count = option(args, '--min-count', 2)
     kind, work, files = args[0], args[1], args[2:]
+    if kind not in snapshot.IMPORTANT or not files:
+        raise ValueError('provide a supported asset kind and at least one names TSV')
     os.makedirs(work, exist_ok=True)
     skeletons, targets = {}, set()
     by_game = {s.game: s for s in (snapshot.read(p) for p in snapshot.snapshots())}
     for path in files:
         tag = os.path.basename(path)[len('names_'):-len('.tsv')]
+        if tag not in snapshot.MODERN or not snapshot.searchable(tag, kind):
+            raise ValueError('pair search requires modern searchable asset pools')
         named = set()
         for line in open(path, encoding='utf-8'):
             k, i, name = line.rstrip('\n').split('\t', 2)
@@ -97,11 +103,12 @@ def main():
     for path, lines in zip(paths, content):
         with open(path, 'w', encoding='utf-8', newline='\n') as fh:
             fh.write('\n'.join(lines) + '\n')
-    basis = TA if kind == 'sound_alias' else IW
-    out = subprocess.run([os.path.join(work, 'token_pair'), basis] + paths, stdout=subprocess.PIPE, check=True).stdout
+    if not hits_file:
+        print('Inputs written. Native backend source was not supplied; no executable is run. '
+              'Use --hits-file to import precomputed results.', file=sys.stderr)
+        return
     seen = set(skeletons)
-    for line in out.decode('utf-8', 'replace').splitlines():
-        name = line.partition(',')[2]
+    for name in read_hits(hits_file, targets, tag, kind):
         if name not in seen:
             seen.add(name)
             print(name)
