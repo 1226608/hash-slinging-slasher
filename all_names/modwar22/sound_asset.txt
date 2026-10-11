@@ -153,6 +153,8 @@ f7aeea4f24deea9,iw9.amb.amb_emitters.animal.emt_anml_frog_03_lp.ll.75.48000.all
 70434c8c8f34a363,iw9.amb.amb_emitters.animal.emt_crix_single_01_close_lp.sl.75.48000.all
 418885d855315f3a,iw9.amb.amb_emitters.animal.emt_crix_single_01_dist_lp.ll.75.48000.all
 29318ba301672a47,iw9.amb.amb_emitters.animal.emt_crix_single_01_dist_lp.sl.75.48000.all
+4f51ae158c62366a,iw9.amb.amb_emitters.animal.emt_crix_single_05_close_lp.ll.75.48000.all
+70129b0f85335157,iw9.amb.amb_emitters.animal.emt_crix_single_05_close_lp.sl.75.48000.all
 1685ce41d06d408a,iw9.amb.amb_emitters.animal.emt_fly_single_03_lp.ll.75.48000.all
 f2375d957e66c1f,iw9.amb.amb_emitters.animal.emt_village_beehive_lp_03.ll.75.48000.all
 57d535f68de502e4,iw9.amb.amb_emitters.debris_rock.emt_sand_gust_01.ln.75.48000.all
@@ -473,6 +475,7 @@ cd9d03d0d98591,iw9.dst.dst_iw9_soda_bottle_spray_01.ln.75.48000.all
 78fb627ad3b8b2f9,iw9.lvl.convoy_chase.scn_door_close_mil_cargo_07.ln.75.48000.all
 647f2adc03968428,iw9.lvl.convoy_chase.scn_door_close_mil_cargo_08.ln.75.48000.all
 6a667ea7e2ea0b0b,iw9.lvl.convoy_chase.scn_door_close_mil_cargo_09.ln.75.48000.all
+61eb6935a2eca4b5,iw9.lvl.convoy_chase.scn_door_open_mil_cargo_01.ln.60.48000.all
 36941ea11fcf50df,iw9.lvl.mp_delta.weap_boss_mine_eject_01.ln.75.48000.all
 699417e699d9a93e,iw9.lvl.mp_delta.weap_boss_mine_eject_02.ln.75.48000.all
 7af1b79a549c9549,iw9.lvl.mp_delta.weap_boss_mine_eject_03.ln.75.48000.all
@@ -545,6 +548,14 @@ d16375dd69341f2,iw9.mp.infil.crossing_infil.infil_crossing_civ_foot3_1.ln.75.480
 5dc38a4cf07d4b3d,iw9.uin.main_iw8.iw8_leavelobby_alert_v1.ln.75.48000.all
 1594c0dcd2b4d74b,iw9.uin.veh.iw9_uin_veh_fuel_ev_charger_enter_01.ln.85.48000.all
 5eea4829a78d7720,iw9.veh.c17.veh_c17_flyby.sn.85.48000.all
+7971a1b3c1e60d67,iw9.veh.hoverjet.iw8_hoverjet_approach_01.pn.75.48000.all
+65d921c3e2751de,iw9.veh.hoverjet.iw8_hoverjet_approach_02.pn.75.48000.all
+458f5cc0bb7f601f,iw9.veh.hoverjet.iw8_hoverjet_flyby_01.ln.75.48000.all
+7528560632a4dc7e,iw9.veh.hoverjet.iw8_hoverjet_flyby_02.ln.75.48000.all
+412c22889499b881,iw9.veh.hoverjet.iw8_hoverjet_idle_lp.sl.75.48000.all
+7f219021da673a26,iw9.veh.hoverjet.iw8_hoverjet_leave_01.pn.75.48000.all
+4c4ffd565f6cded4,iw9.veh.hoverjet.iw8_hoverjet_move_lp.sl.75.48000.all
+318c9eea5e273e31,iw9.veh.hoverjet.iw8_hoverjet_return_01.pn.75.48000.all
 1aae6fc326632723,iw9.veh.suspension.iw9_veh_dirt_bike_suspension_03.ln.75.48000.all
 850b247a10c013e,iw9.veh.suspension.iw9_veh_dirt_bike_suspension_04.ln.75.48000.all
 19ae51fb5bceed49,iw9.veh.suspension.iw9_veh_dirt_bike_suspension_05.ln.75.48000.all
@@ -564,6 +575,12 @@ d16375dd69341f2,iw9.mp.infil.crossing_infil.infil_crossing_civ_foot3_1.ln.75.480
 70106ad592742b1a,iw9.veh.suspension.iw9_veh_dirt_bike_suspension_22.ln.75.48000.all
 19dc06ceb4f0b3a8,iw9.veh.truck_highway.veh_truck_highway_engine_lp_01.sl.75.48000.all
 4131bb3a41d3e963,iw9.veh.water_physics.veh_boat_wake_speed_03_lp.ll.85.48000.all
+549602cd7b811228,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_01.ln.85.48000.all
+1ff55fd6776d3cd1,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_02.ln.85.48000.all
+d55dcdb1fdbbc6,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_03.ln.85.48000.all
+24258e9d5331e227,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_04.ln.85.48000.all
+2643d92baea03934,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_05.ln.85.48000.all
+24e6bf684fe1b7dd,iw9.wpn.atmo.exterior.ar.weap_ar2_fire_plr_atmo_ext1_06.ln.85.48000.all
 29cce0ec73a2b3c,iw9.wpn.atmo.exterior.hmg.weap_hmg_fire_plr_atmo_ext1_01.ln.85.48000.all
 1b59bf5dc0f3be85,iw9.wpn.atmo.exterior.hmg.weap_hmg_fire_plr_atmo_ext1_02.ln.85.48000.all
 3168bdf0f7f3deca,iw9.wpn.atmo.exterior.hmg.weap_hmg_fire_plr_atmo_ext1_03.ln.85.48000.all

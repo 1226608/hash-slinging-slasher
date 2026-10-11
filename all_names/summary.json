@@ -2,72 +2,72 @@
   "games": {
     "blackop6": {
       "files": 5,
-      "names": 135721,
+      "names": 154647,
       "types": {
         "image": {
-          "found_pct": 15.0,
-          "named": 58304,
-          "names": 10920,
+          "found_pct": 15.3,
+          "named": 59542,
+          "names": 12158,
           "total": 389526
         },
         "material": {
-          "found_pct": 65.9,
-          "named": 122645,
-          "names": 52276,
+          "found_pct": 66.6,
+          "named": 123964,
+          "names": 53595,
           "total": 186048
         },
         "sound_alias": {
-          "found_pct": 35.9,
-          "named": 74671,
-          "names": 59788,
+          "found_pct": 40.6,
+          "named": 84404,
+          "names": 69521,
           "total": 207980
         },
         "sound_asset": {
-          "found_pct": 26.8,
-          "named": 87524,
-          "names": 8280,
+          "found_pct": 26.9,
+          "named": 87956,
+          "names": 8712,
           "total": 327081
         },
         "xanim": {
-          "found_pct": 83.0,
-          "named": 72686,
-          "names": 4457,
+          "found_pct": 90.0,
+          "named": 78890,
+          "names": 10661,
           "total": 87620
         }
       }
     },
     "blackop7": {
       "files": 5,
-      "names": 170396,
+      "names": 181385,
       "types": {
         "image": {
-          "found_pct": 8.9,
-          "named": 75072,
-          "names": 12106,
+          "found_pct": 9.1,
+          "named": 76503,
+          "names": 13537,
           "total": 839489
         },
         "material": {
-          "found_pct": 39.7,
-          "named": 154035,
-          "names": 48750,
+          "found_pct": 40.1,
+          "named": 155755,
+          "names": 50470,
           "total": 388231
         },
         "sound_alias": {
-          "found_pct": 46.6,
-          "named": 118497,
-          "names": 95993,
+          "found_pct": 49.4,
+          "named": 125777,
+          "names": 103273,
           "total": 254502
         },
         "sound_asset": {
           "found_pct": 26.6,
-          "named": 106198,
-          "names": 6573,
+          "named": 106341,
+          "names": 6716,
           "total": 399776
         },
         "xanim": {
-          "found_pct": 91.0,
-          "named": 88495,
-          "names": 6974,
+          "found_pct": 91.4,
+          "named": 88910,
+          "names": 7389,
           "total": 97260
         }
       }
@@ -158,36 +158,36 @@
     },
     "modwar22": {
       "files": 5,
-      "names": 118576,
+      "names": 127627,
       "types": {
         "image": {
-          "found_pct": 39.1,
-          "named": 120116,
-          "names": 1632,
+          "found_pct": 39.2,
+          "named": 120648,
+          "names": 2164,
           "total": 307431
         },
         "material": {
           "found_pct": 90.0,
-          "named": 207782,
-          "names": 107113,
+          "named": 207843,
+          "names": 107174,
           "total": 230876
         },
         "sound_alias": {
-          "found_pct": 11.0,
-          "named": 16295,
-          "names": 6376,
+          "found_pct": 12.2,
+          "named": 18005,
+          "names": 8086,
           "total": 147867
         },
         "sound_asset": {
           "found_pct": 18.7,
-          "named": 46646,
-          "names": 735,
+          "named": 46663,
+          "names": 752,
           "total": 249863
         },
         "xanim": {
-          "found_pct": 85.5,
-          "named": 47716,
-          "names": 2720,
+          "found_pct": 97.6,
+          "named": 54447,
+          "names": 9451,
           "total": 55778
         }
       }
@@ -230,36 +230,36 @@
     },
     "yamyamok": {
       "files": 5,
-      "names": 84154,
+      "names": 100440,
       "types": {
         "image": {
-          "found_pct": 33.7,
-          "named": 147363,
-          "names": 4944,
+          "found_pct": 34.2,
+          "named": 149222,
+          "names": 6803,
           "total": 436889
         },
         "material": {
-          "found_pct": 83.9,
-          "named": 186058,
-          "names": 70016,
+          "found_pct": 84.0,
+          "named": 186237,
+          "names": 70195,
           "total": 221679
         },
         "sound_alias": {
-          "found_pct": 10.8,
-          "named": 18049,
-          "names": 6378,
+          "found_pct": 19.2,
+          "named": 32035,
+          "names": 20364,
           "total": 166718
         },
         "sound_asset": {
           "found_pct": 53.2,
-          "named": 154871,
-          "names": 2322,
+          "named": 154957,
+          "names": 2408,
           "total": 291343
         },
         "xanim": {
-          "found_pct": 97.4,
-          "named": 62708,
-          "names": 494,
+          "found_pct": 97.6,
+          "named": 62884,
+          "names": 670,
           "total": 64407
         }
       }
@@ -275,6 +275,6 @@
   ],
   "totals": {
     "games": 7,
-    "names": 841302
+    "names": 896554
   }
 }
