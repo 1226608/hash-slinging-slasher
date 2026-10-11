@@ -77,6 +77,8 @@ table under a name you would not have guessed is the thing you are about to rebu
 
 | method | ways | runs | names | candidates | 1 name per | best | latest | first | last | state |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
+| one token of a known sound alias replaced by a word of the call of duty wiki's page titles | 1 | 4 | 1,114 | 1,114 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| one token of a known xanim replaced by a word of the call of duty wiki's page titles | 1 | 3 | 194 | 194 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | test | 1 | 1 | 5 | 5 | 1 | 1 | 1 | 2026-09-09 | 2026-09-09 | untried |
 | voice-over from the per-language tables, language moved from the ending to the path | 1 | 1 | 257 | 257 | 1 | 1 | 1 | 2026-09-10 | 2026-09-10 | untried |
 | sound asset meet-in-the-middle 1-2 token gap fill inside named sab-bank families | 1 | 1 | 794 | 794 | 1 | 1 | 1 | 2026-09-10 | 2026-09-10 | untried |
@@ -133,17 +135,29 @@ table under a name you would not have guessed is the thing you are about to rebu
 | shared verified visual delta remaining in yamyamok material | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2026-10-09 | 2026-10-09 | untried |
 | bo7 alias source-delta names in mwiii capture | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2026-10-09 | 2026-10-09 | untried |
 | exact alias rule-delta vocabulary reused in mwiii | 1 | 1 | 78 | 78 | 1 | 1 | 1 | 2026-10-09 | 2026-10-09 | untried |
+| one token of a known sound alias replaced by a word of the type's vocabulary, hits as next skeletons | 1 | 4 | 87,205 | 87,206 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| one token of a known sound alias replaced, or a word inserted beside it, from the wide vocabulary of every type | 1 | 4 | 21,108 | 21,109 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| one token of a known image replaced by a word of the type's vocabulary, hits as next skeletons | 1 | 4 | 9,931 | 9,939 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| one token of a known image replaced, or a word inserted beside it, from the wide vocabulary of every type | 1 | 4 | 6,347 | 6,353 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| one token of a known xanim replaced by a word of the type's vocabulary, hits as next skeletons | 1 | 4 | 1,529 | 1,532 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | xmodel: gpu 1-2 token gap fill over xmodel prefixes x xmodel tokens x xmodel endings | 1 | 1 | 451 | 452 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
+| one token of a known xanim replaced, or a word inserted beside it, from the wide vocabulary of every type | 1 | 4 | 926 | 929 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | xanim: gpu 1-2 token gap fill over animation prefixes x animation tokens x animation endings | 1 | 1 | 273 | 274 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
+| one token of a known sound asset replaced by a word of the type's vocabulary, hits as next skeletons | 1 | 4 | 2,466 | 2,479 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | light description: editor default names new<31-bit int>, exhaustive digit sweep on gpu | 1 | 1 | 548 | 552 | 1 | 1 | 1 | 2026-09-13 | 2026-09-13 | untried |
+| one token of a known image replaced by a word of the call of duty wiki's page titles | 1 | 4 | 245 | 247 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | bo4: systematic token-slot template mining across every pocket, iterated to convergence | 1 | 1 | 1,473 | 1,492 | 1 | 1 | 1 | 2026-09-13 | 2026-09-13 | untried |
+| one token of a known material replaced by a word of the type's vocabulary, hits as next skeletons | 1 | 4 | 15,910 | 16,140 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | scriptparsetree/luafile/ddl/stringtable: the dump's own file paths, pockets nobody searches | 1 | 1 | 7,038 | 7,195 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
 | bo4: gpu gap fill re-run on rebuilt vocabularies and targets | 1 | 1 | 287 | 294 | 1 | 1 | 1 | 2026-09-14 | 2026-09-14 | untried |
+| one token of a known material replaced, or a word inserted beside it, from the wide vocabulary of every type | 1 | 4 | 13,721 | 14,130 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | image+material: gpu three-token meet-in-the-middle gap fill | 1 | 1 | 591 | 617 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
 | bo4: material/image mirror | 1 | 1 | 241 | 252 | 1 | 1 | 1 | 2026-09-12 | 2026-09-12 | untried |
 | bo4: the dump's own file tree hashed against every pocket | 1 | 1 | 7,362 | 7,827 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
+| gpt-2 name families + substitution | 1 | 1 | 45 | 49 | 1 | 1 | 1 | 2026-10-10 | 2026-10-10 | untried |
 | community-provided mw4 hash package | 1 | 1 | 33,593 | 36,949 | 1 | 1 | 1 | 2026-10-08 | 2026-10-08 | untried |
 | bo4: three-way model/material/image core mirror | 1 | 1 | 101 | 112 | 1 | 1 | 1 | 2026-09-14 | 2026-09-14 | untried |
+| one token of a known material replaced by a word of the call of duty wiki's page titles | 1 | 4 | 210 | 234 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | bo4: identifier strings read from the retail install's raw 179.8 gb casc packages | 1 | 1 | 401 | 448 | 1 | 1 | 1 | 2026-09-12 | 2026-09-12 | untried |
 | bo4: consonant-skeleton and truncation variants of proper nouns in creature-bearing templates | 1 | 1 | 1,185 | 1,355 | 1 | 1 | 1 | 2026-09-13 | 2026-09-13 | untried |
 | bo4: merged token-slot categories cross-producted over every template in the corpus | 1 | 1 | 579 | 688 | 1 | 1 | 1 | 2026-09-12 | 2026-09-12 | untried |
@@ -155,13 +169,21 @@ table under a name you would not have guessed is the thing you are about to rebu
 | sweep of other pools: in-scope sound alias | 1 | 1 | 3 | 4 | 1 | 1 | 1 | 2026-09-05 | 2026-09-05 | untried |
 | bo4: gpu gap fill over prefixes built from the 102 enemy spawner names of the aitype tables | 1 | 1 | 10 | 14 | 1 | 1 | 1 | 2026-09-11 | 2026-09-11 | untried |
 | zombies vo: mitm round 4 (white/orange, npc seeds) + gpu 3-token gap fill, first 22 prefixes | 1 | 1 | 419 | 619 | 1 | 1 | 1 | 2026-09-10 | 2026-09-10 | untried |
+| composite materials of three layers (twc), enumerated whole; about three chance matches expected | 1 | 4 | 2,549 | 3,811 | 1 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
 | bo4: numeric-sibling completion across every non-sound pocket | 1 | 1 | 29 | 51 | 1 | 1 | 1 | 2026-09-14 | 2026-09-14 | untried |
 | image: gpu 1-2 token gap fill over image prefixes x image tokens x channel endings | 2 | 2 | 348 | 642 | 1 | 1 | 6 | 2026-09-11 | 2026-09-11 | cooling |
 | zombies player-line files read back as aliases | 1 | 1 | 40 | 80 | 2 | 2 | 2 | 2026-10-05 | 2026-10-05 | untried |
 | bo4: truncation and skeleton variants of every vocabulary word in every single-slot template | 1 | 1 | 87 | 187 | 2 | 2 | 2 | 2026-09-13 | 2026-09-13 | untried |
+| two tokens of a known xanim replaced at once, each from the alphabet of its slot | 1 | 4 | 322 | 748 | 2 | 1 | 5 | 2026-10-11 | 2026-10-11 | cooling |
 | bo4: merged token-slot categories, second pass on the enlarged corpus | 1 | 1 | 78 | 194 | 2 | 2 | 2 | 2026-09-14 | 2026-09-14 | untried |
 | bo4: every string in the dump hashed against every pocket | 1 | 1 | 6,240 | 15,741 | 2 | 2 | 2 | 2026-09-11 | 2026-09-11 | untried |
+| two tokens of a known sound alias replaced at once, each from the alphabet of its slot | 1 | 4 | 1,183 | 3,396 | 2 | 2 | 5 | 2026-10-11 | 2026-10-11 | live |
 | richkiller bo4 decoded texture ledger | 1 | 1 | 7,488 | 22,210 | 2 | 2 | 2 | 2026-09-04 | 2026-09-04 | untried |
+| zm red slot search: glossary, spatial and visual neighbours | 1 | 1 | 60 | 180 | 3 | 3 | 3 | 2026-10-10 | 2026-10-10 | untried |
+| composite materials of two layers, enumerated whole | 1 | 3 | 2,873 | 8,658 | 3 | 1 | 1 | 2026-10-11 | 2026-10-11 | live |
+| two tokens of a known material replaced at once, each from the alphabet of its slot | 1 | 4 | 1,042 | 3,476 | 3 | 2 | 7 | 2026-10-11 | 2026-10-11 | cooling |
+| two tokens of a known image replaced at once, each from the alphabet of its slot | 1 | 4 | 1,816 | 6,688 | 3 | 1 | 38 | 2026-10-11 | 2026-10-11 | spent |
+| two tokens of a known sound asset replaced at once, each from the alphabet of its slot | 1 | 4 | 2,590 | 9,760 | 3 | 1 | 71 | 2026-10-11 | 2026-10-11 | spent |
 | xanim: gpu three-token meet-in-the-middle gap fill over 1500 animation prefixes | 1 | 1 | 68 | 273 | 4 | 4 | 4 | 2026-09-11 | 2026-09-11 | untried |
 | sound files from the bo2/bo3 published folder trees | 1 | 1 | 2,603 | 11,036 | 4 | 4 | 4 | 2026-09-09 | 2026-09-09 | untried |
 | operator voice-line grid dx op <category> <event> <speaker> | 3 | 3 | 7,657 | 37,260 | 4 | 3 | 3 | 2026-10-09 | 2026-10-09 | live |
@@ -174,7 +196,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | jointly witnessed alias pair rules on verified new source names | 1 | 1 | 2,677 | 29,352 | 10 | 10 | 10 | 2026-10-09 | 2026-10-09 | untried |
 | zombies map lines, file parts reordered as aliases | 1 | 1 | 412 | 4,759 | 11 | 11 | 11 | 2026-10-05 | 2026-10-05 | untried |
 | bo4: gpu gap fill with a vocabulary taken from the game's own english subtitles | 1 | 1 | 77 | 1,056 | 13 | 13 | 13 | 2026-09-11 | 2026-09-11 | untried |
-| final byte solved backwards | 1 | 276 | 389,722 | 5,986,427 | 15 | 2 | 4 | 2026-08-22 | 2026-10-11 | live |
+| final byte solved backwards | 1 | 278 | 389,731 | 5,999,397 | 15 | 1 | 4 | 2026-08-22 | 2026-10-11 | cooling |
 | bo4: exhaustive 1-9 character enumeration over [a-z0-9 ] against every pocket | 1 | 1 | 3 | 49 | 16 | 16 | 16 | 2026-09-13 | 2026-09-13 | untried |
 | bo4: exhaustive 9-character enumeration, decode fixed | 1 | 1 | 4 | 71 | 17 | 17 | 17 | 2026-09-13 | 2026-09-13 | untried |
 | sound alias: mp/blackout dialog aliases cracked from the mpdialog player script bundles | 1 | 1 | 30 | 570 | 19 | 19 | 19 | 2026-09-11 | 2026-09-11 | untried |
@@ -262,6 +284,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | blackout vo: all named speakers x all known blackout events x variants | 1 | 1 | 112 | 159,536 | 1,424 | 1,424 | 1,424 | 2026-09-11 | 2026-09-11 | untried |
 | modern slotswap round 2: seeds include this session's finds | 1 | 2 | 58,341 | 85,020,075 | 1,457 | 1,225 | 1,225 | 2026-10-08 | 2026-10-08 | live |
 | voice phrase grids, cross fill inside categories | 1 | 1 | 442 | 650,084 | 1,470 | 1,470 | 1,470 | 2026-10-05 | 2026-10-05 | untried |
+| images from the material that holds them, per slot | 1 | 1 | 3,859 | 5,693,979 | 1,475 | 1,475 | 1,475 | 2026-10-11 | 2026-10-11 | untried |
 | two byte pool solve | 1 | 1 | 2 | 3,124 | 1,562 | 1,562 | 1,562 | 2026-09-04 | 2026-09-04 | untried |
 | alias family grid snowball r3 h2 | 5 | 5 | 7,287 | 11,440,235 | 1,569 | 830 | 15,052 | 2026-10-09 | 2026-10-09 | spent |
 | alias family grid snowball r3 h1 | 5 | 5 | 7,353 | 11,948,635 | 1,625 | 837 | 13,501 | 2026-10-09 | 2026-10-09 | spent |
@@ -418,13 +441,13 @@ table under a name you would not have guessed is the thing you are about to rebu
 | xanim family grid: middle x final token | 4 | 4 | 209 | 11,825,864 | 56,583 | 22,397 | 739,116 | 2026-10-09 | 2026-10-09 | spent |
 | image siblings from confirmed materials | 1 | 1 | 35 | 2,001,561 | 57,187 | 57,187 | 57,187 | 2026-08-26 | 2026-08-26 | untried |
 | cod-ultimate source literals | 1 | 2 | 12 | 686,330 | 57,194 | 49,023 | 49,023 | 2026-08-31 | 2026-08-31 | live |
-| family gap filling | 1 | 124 | 1,565 | 95,306,867 | 60,898 | 654 | 400,374 | 2026-08-19 | 2026-10-11 | spent |
 | image siblings of richkiller-derived materials | 1 | 1 | 39 | 2,396,589 | 61,451 | 61,451 | 61,451 | 2026-09-04 | 2026-09-04 | untried |
 | edits anim | 2 | 5 | 208 | 12,868,629 | 61,868 | 15,318 | 15,318 | 2026-08-20 | 2026-08-20 | live |
+| family gap filling | 1 | 126 | 1,570 | 97,538,822 | 62,126 | 654 | 400,374 | 2026-08-19 | 2026-10-11 | spent |
 | mwiii-material-context | 1 | 1 | 348 | 21,755,781 | 62,516 | 62,516 | 62,516 | 2026-10-09 | 2026-10-09 | untried |
 | sound files from aliases, after long-phrase quips | 1 | 1 | 176 | 11,236,875 | 63,845 | 63,845 | 63,845 | 2026-10-05 | 2026-10-05 | untried |
-| image siblings of confirmed materials | 1 | 211 | 7,524 | 484,091,736 | 64,339 | 393 | 80,965 | 2026-08-19 | 2026-10-09 | spent |
 | cold war animation token edits after new findings | 2 | 2 | 93 | 5,989,742 | 64,405 | 32,080 | 3,038,360 | 2026-08-26 | 2026-08-31 | spent |
+| image siblings of confirmed materials | 1 | 214 | 7,645 | 502,082,364 | 65,674 | 393 | 5,997,204 | 2026-08-19 | 2026-10-10 | spent |
 | image family grid: middle x final token | 5 | 5 | 396 | 26,031,120 | 65,735 | 22,060 | 1,735,408 | 2026-10-09 | 2026-10-09 | spent |
 | image family grid snowball r2 h2 | 3 | 3 | 236 | 15,640,395 | 66,272 | 27,439 | 27,439 | 2026-10-09 | 2026-10-09 | live |
 | viewmodel anim <-> player foley alias seam | 1 | 1 | 2 | 134,846 | 67,423 | 67,423 | 67,423 | 2026-10-09 | 2026-10-09 | untried |
@@ -517,9 +540,9 @@ table under a name you would not have guessed is the thing you are about to rebu
 | sound files from aliases | 1 | 4 | 188 | 44,736,077 | 237,957 | 159,878 | 194,856 | 2026-10-01 | 2026-10-05 | live |
 | mcdp material redecorations after pr971 | 1 | 1 | 5 | 1,198,438 | 239,687 | 239,687 | 239,687 | 2026-08-27 | 2026-08-27 | untried |
 | refreshed mcdp material core redecorations | 1 | 1 | 5 | 1,198,717 | 239,743 | 239,743 | 239,743 | 2026-08-28 | 2026-08-28 | untried |
-| image channel completion | 1 | 168 | 1,781 | 431,676,259 | 242,378 | 5,159 | 960,309 | 2026-08-20 | 2026-10-11 | spent |
 | xanim family grid h2 r1 | 3 | 3 | 39 | 9,501,074 | 243,617 | 122,290 | 122,290 | 2026-10-09 | 2026-10-09 | live |
 | speaker grids re-run cw | 1 | 1 | 6 | 1,466,925 | 244,487 | 244,487 | 244,487 | 2026-08-24 | 2026-08-24 | untried |
+| image channel completion | 1 | 171 | 1,796 | 440,149,267 | 245,071 | 5,159 | 960,309 | 2026-08-20 | 2026-10-11 | spent |
 | xanim family grid round 1, head 1 | 2 | 2 | 24 | 6,005,858 | 250,244 | 158,048 | 158,048 | 2026-10-09 | 2026-10-09 | live |
 | token insertion and deletion anim | 1 | 1 | 12 | 3,115,854 | 259,654 | 259,654 | 259,654 | 2026-09-07 | 2026-09-07 | untried |
 | bo7 package modifiers and terrain orders shared with mwii | 1 | 1 | 6 | 1,605,332 | 267,555 | 267,555 | 267,555 | 2026-10-09 | 2026-10-09 | untried |
@@ -603,9 +626,9 @@ table under a name you would not have guessed is the thing you are about to rebu
 | token edits material after pr828 | 1 | 1 | 4 | 2,186,916 | 546,729 | 546,729 | 546,729 | 2026-08-26 | 2026-08-26 | untried |
 | cold war legacy multi-axis numbered grids | 1 | 1 | 7 | 3,858,203 | 551,171 | 551,171 | 551,171 | 2026-08-29 | 2026-08-29 | untried |
 | slot swap from end w2 material r1 | 2 | 2 | 96 | 53,830,703 | 560,736 | 545,055 | 577,085 | 2026-10-09 | 2026-10-09 | live |
-| materials from image cores | 1 | 171 | 1,486 | 840,697,368 | 565,745 | 9,045 | 163,223 | 2026-08-20 | 2026-10-08 | spent |
 | twcj 4-token names: known 3-token name + appended token | 1 | 2 | 12 | 6,801,020 | 566,751 | 485,787 | 680,102 | 2026-10-09 | 2026-10-09 | live |
 | material family grid snowball r1 h3 | 1 | 1 | 16 | 9,095,890 | 568,493 | 568,493 | 568,493 | 2026-10-09 | 2026-10-09 | untried |
+| materials from image cores | 1 | 172 | 1,488 | 846,510,600 | 568,891 | 9,045 | 2,906,616 | 2026-08-20 | 2026-10-10 | spent |
 | rare shared-token splices family size 481-960 | 1 | 2 | 128 | 73,051,283 | 570,713 | 314,886 | 314,886 | 2026-08-28 | 2026-08-28 | live |
 | twj 3-token names: known 2-token name + appended token | 1 | 1 | 5 | 2,880,432 | 576,086 | 576,086 | 576,086 | 2026-10-09 | 2026-10-09 | untried |
 | cold war same-directory outer-inner cross | 1 | 3 | 9 | 5,196,762 | 577,418 | 577,418 | 577,418 | 2026-08-27 | 2026-08-27 | live |
@@ -1049,8 +1072,8 @@ table under a name you would not have guessed is the thing you are about to rebu
 | \\ cold war image token length stream\\ | 1 | 1 | 2 | 45,579,875 | 22,789,937 | 22,789,937 | 22,789,937 | 2026-08-29 | 2026-08-29 | untried |
 | cold war image token insertions and deletions cap8 minseen12 | 1 | 1 | 1 | 22,877,777 | 22,877,777 | 22,877,777 | 22,877,777 | 2026-09-08 | 2026-09-08 | untried |
 | yamyamok sound directories and tails with confirmed modern basenames | 1 | 1 | 1,106 | 26,529,272,280 | 23,986,683 | 23,986,683 | 23,986,683 | 2026-10-09 | 2026-10-09 | untried |
-| tails of length 3 | 1 | 248 | 420,768 | 10,136,939,241,660 | 24,091,516 | 1,196,677 | 13,381,672 | 2026-08-22 | 2026-10-11 | spent |
 | image head swap | 1 | 4 | 456 | 11,005,506,000 | 24,134,881 | 12,495,151 | 89,639,032 | 2026-10-08 | 2026-10-08 | cooling |
+| tails of length 3 | 1 | 251 | 421,826 | 10,281,292,251,050 | 24,373,301 | 1,196,677 | 13,381,672 | 2026-08-22 | 2026-10-11 | spent |
 | voice phrase grids, probed with wiki dialogue transcripts | 1 | 1 | 2 | 49,396,982 | 24,698,491 | 24,698,491 | 24,698,491 | 2026-10-07 | 2026-10-07 | untried |
 | keyword sweep: zombie models | 1 | 1 | 4 | 100,074,665 | 25,018,666 | 25,018,666 | 25,018,666 | 2026-08-21 | 2026-08-21 | untried |
 | ab snowball r1 visual: new cores x all endings | 1 | 14 | 79 | 1,983,006,610 | 25,101,349 | 2,662,508 | 154,200,514 | 2026-09-29 | 2026-10-06 | spent |
@@ -1610,7 +1633,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon vocabulary growth, then attachment unfolding | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 | names already found and verified, but never sent | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 
-1532 distinct methods, run 1904 ways between them, across 5257 runs. `names` is what each run
+1555 distinct methods, run 1927 ways between them, across 5352 runs. `names` is what each run
 found new to the machine that ran it. A blank candidate count means no run of that method
 recorded one, so it cannot be ranked -- see `--unattributed`.
 <!-- END GENERATED REGISTRY -->
