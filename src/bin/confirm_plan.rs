@@ -186,11 +186,14 @@ fn read_plan(path: &Path) -> Result<Plan, String> {
 
 fn main() {
     readiness::require();
-    futility::require();
     let began = Instant::now();
 
     let arguments: Vec<String> = std::env::args().skip(1).collect();
     let size_only = arguments.iter().any(|argument| argument == "--size");
+    // Sizing does not search or move the empty-run ledger. Full searches retain the guard.
+    if !size_only {
+        futility::require();
+    }
 
     let Some(path) = arguments
         .iter()
@@ -368,7 +371,7 @@ fn main() {
 
     // Recorded whatever the outcome, including nothing: a run that finds nothing is a
     // real result, and three of them in a row is a loop. See `futility`.
-    futility::record(results.added(), None);
+    futility::record(results.added(), Some(candidates));
 
 
     if let Err(error) = results.write(paths::findings()) {
