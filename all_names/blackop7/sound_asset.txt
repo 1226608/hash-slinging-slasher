@@ -1229,6 +1229,11 @@ f324df44c54a5ed,core/prj/impacts/bullet/plr/blt_imp_masonry_far_15.tnn.85.48000.
 4467b06541e1fc02,core/prj/impacts/bullet/plr/blt_imp_paper_near_03.tnn.85.48000.all
 5b57b4239ed22ac1,core/prj/impacts/bullet/plr/blt_imp_paper_near_04.tnn.85.48000.all
 1ab1d0c9d27c88b4,core/prj/impacts/bullet/plr/blt_imp_paper_near_05.tnn.85.48000.all
+4778575baf363fc7,core/prj/impacts/bullet/plr/blt_imp_shield_01.lnn.75.48000.all
+5f5d0cbcb11af0f8,core/prj/impacts/bullet/plr/blt_imp_shield_02.lnn.75.48000.all
+779d8daad3f24f25,core/prj/impacts/bullet/plr/blt_imp_shield_03.lnn.75.48000.all
+64bf7112377b88a6,core/prj/impacts/bullet/plr/blt_imp_shield_04.lnn.75.48000.all
+10bf7c105780b61b,core/prj/impacts/bullet/plr/blt_imp_shield_05.lnn.75.48000.all
 4f76d491b5833c43,core/prj/impacts/bullet/plr/iw9_blt_imp_metal_auto_far_01.tnn.75.48000.all
 452efc85f9759674,core/prj/impacts/bullet/plr/iw9_blt_imp_metal_auto_far_01.tnn.85.48000.all
 70a9c7e6f71f0fe4,core/prj/impacts/bullet/plr/iw9_blt_imp_metal_auto_far_02.tnn.75.48000.all
@@ -3189,6 +3194,12 @@ f7b041238c56cf2,iw9/dst/dst_apples_1.tnn.75.48000.all
 625963a6750054ff,iw9/dst/dst_balloon_pop_02.tnn.75.48000.all
 67389fcd9322387a,iw9/dst/dst_balloon_pop_03.tnn.75.48000.all
 1a9520a313462711,iw9/dst/dst_balloon_pop_04.tnn.75.48000.all
+46a4ce458dd35784,iw9/dst/dst_bathroom_sink_01.tnn.85.48000.all
+4d6619137b01db43,iw9/dst/dst_bathroom_sink_02.tnn.85.48000.all
+65cfeaa674f787ee,iw9/dst/dst_bathroom_sink_03.tnn.85.48000.all
+7f6099f7e235b135,iw9/dst/dst_bathroom_sink_04.tnn.85.48000.all
+1160885de7b09eb8,iw9/dst/dst_bathroom_sink_05.tnn.85.48000.all
+5636d773d3484a17,iw9/dst/dst_bathroom_sink_06.tnn.85.48000.all
 2183dbd4c7110d97,iw9/dst/dst_cart_port_01.tnn.75.48000.all
 3e2c4243c5e95f8,iw9/dst/dst_cart_port_02.tnn.75.48000.all
 6e2a35bb364f8955,iw9/dst/dst_cart_port_03.tnn.75.48000.all
@@ -3233,6 +3244,7 @@ f11e230f210d7bf,iw9/dst/dst_food_trash_cup_5.tnn.75.48000.all
 105fedc8a1c29bfe,iw9/dst/dst_glass_light_fixture_01.tnn.75.48000.all
 1fdb96a1840911c1,iw9/dst/dst_glass_light_fixture_02.tnn.75.48000.all
 18ca17e943d84a94,iw9/dst/dst_glass_light_fixture_03.tnn.75.48000.all
+30eccfc1d5815491,iw9/dst/dst_industrial_fan_02.tnn.75.48000.all
 7633f11635f04c4f,iw9/dst/dst_iw9_bar_stool_metal_explo_01.tnn.75.48000.all
 1718d46c0a731010,iw9/dst/dst_iw9_bar_stool_metal_explo_02.tnn.75.48000.all
 40d45ff57f3a872d,iw9/dst/dst_iw9_bar_stool_metal_explo_03.tnn.75.48000.all
@@ -3364,6 +3376,12 @@ b584a5c325cebbb,iw9/dst/dst_plastic_bucket_02.tnn.75.48000.all
 1c25104c14589149,iw9/dst/dst_potted_plant_dead_02.tnn.75.48000.all
 150fa7b12428c33c,iw9/dst/dst_potted_plant_dead_03.tnn.75.48000.all
 7e00a9504b446e37,iw9/dst/dst_potted_plant_dead_04.tnn.75.48000.all
+55746b9d853288c6,iw9/dst/dst_shoe_box_01.lnn.75.48000.all
+4fde78dfbcea08be,iw9/dst/dst_shoe_box_01.tnn.75.48000.all
+536dd4726330629,iw9/dst/dst_shoe_box_02.lnn.75.48000.all
+5a09e9cbb1659681,iw9/dst/dst_shoe_box_02.tnn.75.48000.all
+10fad254755b97dc,iw9/dst/dst_shoe_box_03.lnn.75.48000.all
+54e2a3005c1c8e54,iw9/dst/dst_shoe_box_03.tnn.75.48000.all
 2fa214ec793ff87,iw9/dst/dst_soda_can_01.tnn.75.48000.all
 4076aaa8fbc8afe8,iw9/dst/dst_soda_can_02.tnn.75.48000.all
 2325090f53bc0145,iw9/dst/dst_soda_can_03.tnn.75.48000.all
@@ -3766,6 +3784,9 @@ bcb7cd9a081d0b,iw9/exp/frag/iw9/iw9_frag_expl_trans_04.lnn.85.48000.all
 136b5594e9dd8d2a,iw9/exp/frag/iw9/iw9_frag_expl_veryfar_dist_02.lnn.75.48000.all
 43d0d6c43f91e3b4,iw9/exp/frag/iw9/iw9_frag_expl_veryfar_dist_04.lnn.75.48000.all
 70a962b7f93f72d1,iw9/exp/frag/iw9/mtx_crash/mtx_frag_crash_explode_swt_01.lnn.75.48000.all
+d58e9676b35ad10,iw9/exp/frag/iw9_frag_expl_atmo_underwater_01.tnn.75.48000.all
+6c74061196b2e94f,iw9/exp/frag/iw9_frag_expl_atmo_underwater_02.tnn.75.48000.all
+32e2a48f9d1ddca,iw9/exp/frag/iw9_frag_expl_atmo_underwater_03.tnn.75.48000.all
 28386bf9b66f8e21,iw9/exp/gas_grenade/iw9_gas_grenade_tail_close_new.pnn.75.48000.all
 bb078b77c084fd4,iw9/exp/gas_grenade/iw9_gas_grenade_trans_body_01.tnn.75.48000.all
 4a07f341e1813db3,iw9/exp/gas_grenade/iw9_gas_grenade_trans_body_02.tnn.75.48000.all
@@ -5014,9 +5035,11 @@ fd2ee91f822b65e,iw9/uin/mp/iw8_restock_tacticals_v1.snn.75.48000.all
 5d0312f6088ac855,iw9/uin/mp/mp_ui_splash_notify_01.tnn.85.48000.all
 68e137a54b8f6dc8,iw9/uin/splash/challenge/uin_iw9_master_challenge_splash_full.snn.75.48000.all
 3e28125f388e6f55,iw9/uin/ui_motiontracker_pong1.tnn.75.48000.all
+6dc434680a41ab98,iw9/uin/veh/iw9_uin_veh_fuel_ev_charger.snn.85.48000.all
 52a2322839140282,iw9/uin/veh/iw9_uin_veh_fuel_ev_charger_enter_01.lnn.85.48000.all
 5745bdba7656927c,iw9/uin/veh/iw9_uin_veh_fuel_ev_charger_start_01.lnn.85.48000.all
 623b2d2037f2885c,iw9/uin/veh/iw9_uin_veh_fuel_ev_charger_stop_01.lnn.85.48000.all
+1680b6616def9492,iw9/uin/veh/iw9_uin_veh_fuel_gas_ticker.snn.85.48000.all
 4ce76b80b80ca7ca,iw9/uin/veh/iw9_uin_veh_fuel_gas_ticker_stop_01.lnn.85.48000.all
 8c825deba6ab5d,iw9/uin/veh/iw9_uin_veh_fuel_gas_ticker_stop_02.lnn.85.48000.all
 224a2fd085836f10,iw9/uin/veh/iw9_uin_veh_fuel_gas_ticker_stop_03.lnn.85.48000.all
@@ -5707,6 +5730,7 @@ c23b7850d591375,jup/eqp/thermobaric_grenade/eqp_thermobaric_grenade_explode_tran
 2696a930e4ee0546,jup/gam/mpl/cranked_mode/jup_cranked_timer_warning.lnn.85.48000.all
 7cd75a8eec96cace,jup/gam/mpl/cranked_mode/jup_cranked_timer_warning.tnn.85.48000.all
 24e626b12c8ddcae,jup/gam/mpl/infected_mode/jup_infected_player_last_stand.snn.85.48000.all
+28c1ab2fd79295d2,jup/gam/mpl/infected_mode/jup_infected_player_spawn.snn.85.48000.all
 1e27a191fc0cf2a1,jup/gam/mpl/infected_mode/jup_infected_player_spawn_first.snn.85.48000.all
 5ff338fb49e6c9cd,jup/gam/mpl/infected_mode/jup_infected_ui_splash_infected_first.snn.85.48000.all
 7886746e374ed040,jup/gam/mpl/infected_mode/jup_infected_ui_splash_survivor.snn.85.48000.all
@@ -7753,6 +7777,9 @@ e845447fd141b0f,t10/exp/frag/iw9/iw9_frag_expl_swt_05.tnn.75.48000.all
 2ad4f311cf8cf4a0,t10/exp/frag/iw9/iw9_frag_expl_veryfar_dist_06.lnn.75.48000.all
 578f5f9e17f3e7a8,t10/exp/frag/iw9/iw9_frag_expl_veryfar_dist_06.tnn.75.48000.all
 3a93088d21022bf,t10/exp/frag/iw9/iw9_frag_expl_veryfar_dist_06.tnn.85.48000.all
+7b18a83cd44b2b52,t10/exp/frag/iw9_frag_expl_atmo_underwater_01.tnn.75.48000.all
+5a7e18411024875,t10/exp/frag/iw9_frag_expl_atmo_underwater_02.tnn.75.48000.all
+534759046057d898,t10/exp/frag/iw9_frag_expl_atmo_underwater_03.tnn.75.48000.all
 76fa683370471936,t10/exp/rocket/rocket_expl_body_01.tnn.85.48000.all
 60de57fdfa122e99,t10/exp/rocket/rocket_expl_body_02.tnn.85.48000.all
 5f2f194a16d26e6c,t10/exp/rocket/rocket_expl_body_03.tnn.85.48000.all
@@ -8020,6 +8047,7 @@ fe08ed93c67d5d8,t10/wpn/smg/mpug40/plr/sup/wpn_sm_mpug40_sup_plr_03.tnn.85.48000
 19bbb077fb3df425,t10/wpn/smg/perth/reloads/fly_plr_smg_perth_reload_transition_empty_fast01_02.tnn.75.48000.all
 3362837dfcc42439,t10/wpn/smg/perth/reloads/fly_plr_smg_perth_reload_transition_empty_fast01_flip_02.tnn.75.48000.all
 554fc1ccdfadbabc,t10/wpn/smg/perth/reloads/fly_plr_smg_perth_reload_transition_empty_fast02_02.tnn.75.48000.all
+6ce7c74f4467c3b,t10/wpn/smg/pparis90/reloads/fly_vox/amb_redzone/amb_redzone_04_atango
 7d9dff449a84ef8f,t10/wpn/smg/saug/reloads/fly_ply_p28_sm_saug_transition_reload_empty_end.tnn.75.48000.all
 17d57610870b0f62,t10/wpn/smg/schuck/plr/sup/wpn_sm_schuck_sup_plr_01.tnn.85.48000.all
 4c8e7c55441b9345,t10/wpn/smg/schuck/plr/sup/wpn_sm_schuck_sup_plr_02.tnn.85.48000.all
