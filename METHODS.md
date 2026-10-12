@@ -955,7 +955,6 @@ table under a name you would not have guessed is the thing you are about to rebu
 | \ bo4 rare shared-token splice family 3001-3300 material\ | 1 | 1 | 1 | 5,966,596 | 5,966,596 | 5,966,596 | 5,966,596 | 2026-08-28 | 2026-08-28 | untried |
 | corpus-mined substitutions, top 1000 | 1 | 4 | 24 | 145,853,160 | 6,077,215 | 4,050,931 | 18,234,083 | 2026-08-27 | 2026-08-27 | cooling |
 | two-word slots, web bigrams ranked 100k+ | 1 | 1 | 178 | 1,083,632,880 | 6,087,825 | 6,087,825 | 6,087,825 | 2026-10-05 | 2026-10-05 | untried |
-| fresh confirmed-only cores against modwar7, own endings | 1 | 1 | 180 | 1,099,155,343 | 6,106,418 | 6,106,418 | 6,106,418 | 2026-10-12 | 2026-10-12 | untried |
 | context swap xanim r2 | 2 | 2 | 4 | 25,283,313 | 6,320,828 | 6,265,634 | 6,486,409 | 2026-10-09 | 2026-10-10 | live |
 | long image channels on every material and image core | 1 | 8 | 990 | 6,271,016,051 | 6,334,359 | 704,827 | 25,867,407 | 2026-10-09 | 2026-10-11 | spent |
 | ab snowball r2 sound: new cores x all endings | 1 | 8 | 56 | 354,903,549 | 6,337,563 | 650,006 | 7,400,074 | 2026-09-29 | 2026-10-05 | spent |
@@ -1022,6 +1021,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | cold war material token insertions and deletions cap16 minseen5 | 1 | 1 | 4 | 44,036,035 | 11,009,008 | 11,009,008 | 11,009,008 | 2026-09-08 | 2026-09-08 | untried |
 | token edits material current cw 20260903 | 1 | 1 | 3 | 33,095,190 | 11,031,730 | 11,031,730 | 11,031,730 | 2026-09-03 | 2026-09-03 | untried |
 | token edits material | 1 | 1 | 3 | 33,118,937 | 11,039,645 | 11,039,645 | 11,039,645 | 2026-09-03 | 2026-09-03 | untried |
+| fresh confirmed-only cores against modwar7, own endings | 1 | 2 | 197 | 2,199,275,687 | 11,163,835 | 6,106,418 | 64,712,961 | 2026-10-12 | 2026-10-12 | spent |
 | weapon-slot plan for newly found bo7 weapons | 1 | 1 | 6 | 68,337,384 | 11,389,564 | 11,389,564 | 11,389,564 | 2026-10-09 | 2026-10-09 | untried |
 | precedents top20 | 2 | 2 | 5 | 57,508,152 | 11,501,630 | 7,188,519 | 7,188,519 | 2026-09-02 | 2026-09-02 | live |
 | model-name stems as images | 1 | 4 | 224 | 2,597,400,432 | 11,595,537 | 3,077,488 | 216,450,036 | 2026-10-12 | 2026-10-12 | spent |
@@ -1182,6 +1182,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | cold war sound, uncarried two-segment endings | 1 | 1 | 195 | 11,273,898,861 | 57,814,865 | 57,814,865 | 57,814,865 | 2026-08-23 | 2026-08-23 | untried |
 | open-slot embedding neighbours, ranks 3000-15000, frames >= 5 fillers | 1 | 1 | 2 | 116,167,256 | 58,083,628 | 58,083,628 | 58,083,628 | 2026-10-01 | 2026-10-01 | untried |
 | tw 3-token names: known 2-token name + appended token | 1 | 2 | 11 | 641,256,174 | 58,296,015 | 35,625,343 | 160,314,043 | 2026-10-09 | 2026-10-09 | cooling |
+| fresh confirmed-only sound cores against modwar7, own sound endings | 1 | 1 | 44 | 2,565,299,126 | 58,302,252 | 58,302,252 | 58,302,252 | 2026-10-12 | 2026-10-12 | untried |
 | hot word prefixes x their family tails x top 30k words | 1 | 2 | 5 | 298,140,000 | 59,628,000 | 46,450,000 | 46,450,000 | 2026-10-01 | 2026-10-01 | live |
 | images for every material prefix x 200 measured channel endings | 1 | 2 | 2 | 138,431,017 | 69,215,508 | 60,958,159 | 60,958,159 | 2026-10-06 | 2026-10-06 | live |
 | material heads x tails shared by >= 2 heads | 1 | 4 | 7,110 | 495,761,933,903 | 69,727,416 | 47,070,443 | 358,630,286 | 2026-10-09 | 2026-10-10 | cooling |
@@ -1672,7 +1673,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon vocabulary growth, then attachment unfolding | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 | names already found and verified, but never sent | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 
-1594 distinct methods, run 1966 ways between them, across 5522 runs. `names` is what each run
+1595 distinct methods, run 1967 ways between them, across 5524 runs. `names` is what each run
 found new to the machine that ran it. A blank candidate count means no run of that method
 recorded one, so it cannot be ranked -- see `--unattributed`.
 <!-- END GENERATED REGISTRY -->

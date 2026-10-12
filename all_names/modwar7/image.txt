@@ -1436,6 +1436,7 @@ d469739939d2b82,ui_bp_aar_checkmark
 7203096dc71dcf68,ui_bp_aar_tag_topo
 4f1ff85d949af4e6,ui_bp_aar_topography
 5fbfbe34f9940c76,ui_bp_aar_topography_jup
+7686c9c0fe35e780,ui_bp_atlas_black_cell_shimmer
 6c4f57d9e3ce988f,ui_bp_atlas_boost
 7002a94f9de00023,ui_bp_atlas_boost_jup
 336f670ce11c90a8,ui_bp_atlas_selection_dot_pulse
@@ -1465,6 +1466,7 @@ f27964020dee2b7,ui_bp_brackets_arrow
 6f9a5ac0b53ec11d,ui_bp_button_mask_jup
 44d4a1caaf431065,ui_bp_button_outline
 5c6366ac9e2a79db,ui_bp_button_tag
+2bb1a1dd0ef3fba8,ui_bp_checkmark_sector
 31870217c348b288,ui_bp_circle
 796bd04d46c6b95d,ui_bp_circle_dotted
 344176b3eb518cf,ui_bp_complete_star_emblem
