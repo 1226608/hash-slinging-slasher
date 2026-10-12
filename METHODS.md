@@ -227,7 +227,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | jointly witnessed alias pair rules on verified new source names | 1 | 1 | 2,677 | 29,352 | 10 | 10 | 10 | 2026-10-09 | 2026-10-09 | untried |
 | zombies map lines, file parts reordered as aliases | 1 | 1 | 412 | 4,759 | 11 | 11 | 11 | 2026-10-05 | 2026-10-05 | untried |
 | bo4: gpu gap fill with a vocabulary taken from the game's own english subtitles | 1 | 1 | 77 | 1,056 | 13 | 13 | 13 | 2026-09-11 | 2026-09-11 | untried |
-| final byte solved backwards | 1 | 287 | 389,749 | 5,999,576 | 15 | 1 | 10 | 2026-08-22 | 2026-10-12 | cooling |
+| final byte solved backwards | 1 | 288 | 390,163 | 6,001,560 | 15 | 1 | 4 | 2026-08-22 | 2026-10-12 | cooling |
 | bo4: exhaustive 1-9 character enumeration over [a-z0-9 ] against every pocket | 1 | 1 | 3 | 49 | 16 | 16 | 16 | 2026-09-13 | 2026-09-13 | untried |
 | bo4: exhaustive 9-character enumeration, decode fixed | 1 | 1 | 4 | 71 | 17 | 17 | 17 | 2026-09-13 | 2026-09-13 | untried |
 | sound alias: mp/blackout dialog aliases cracked from the mpdialog player script bundles | 1 | 1 | 30 | 570 | 19 | 19 | 19 | 2026-09-11 | 2026-09-11 | untried |
@@ -480,9 +480,9 @@ table under a name you would not have guessed is the thing you are about to rebu
 | mwiii-material-context | 1 | 1 | 348 | 21,755,781 | 62,516 | 62,516 | 62,516 | 2026-10-09 | 2026-10-09 | untried |
 | sound files from aliases, after long-phrase quips | 1 | 1 | 176 | 11,236,875 | 63,845 | 63,845 | 63,845 | 2026-10-05 | 2026-10-05 | untried |
 | cold war animation token edits after new findings | 2 | 2 | 93 | 5,989,742 | 64,405 | 32,080 | 3,038,360 | 2026-08-26 | 2026-08-31 | spent |
+| family gap filling | 1 | 129 | 1,687 | 108,718,198 | 64,444 | 654 | 33,283 | 2026-08-19 | 2026-10-12 | spent |
 | image family grid: middle x final token | 5 | 5 | 396 | 26,031,120 | 65,735 | 22,060 | 1,735,408 | 2026-10-09 | 2026-10-09 | spent |
 | image family grid snowball r2 h2 | 3 | 3 | 236 | 15,640,395 | 66,272 | 27,439 | 27,439 | 2026-10-09 | 2026-10-09 | live |
-| family gap filling | 1 | 128 | 1,575 | 104,990,410 | 66,660 | 654 | 931,489 | 2026-08-19 | 2026-10-12 | spent |
 | viewmodel anim <-> player foley alias seam | 1 | 1 | 2 | 134,846 | 67,423 | 67,423 | 67,423 | 2026-10-09 | 2026-10-09 | untried |
 | adjacent-token-order-anim | 1 | 1 | 2 | 136,243 | 68,121 | 68,121 | 68,121 | 2026-08-20 | 2026-08-20 | untried |
 | mwiii-image-context | 1 | 1 | 252 | 17,405,181 | 69,068 | 69,068 | 69,068 | 2026-10-09 | 2026-10-09 | untried |
@@ -1043,6 +1043,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon-slot plan for newly found bo7 weapons | 1 | 1 | 6 | 68,337,384 | 11,389,564 | 11,389,564 | 11,389,564 | 2026-10-09 | 2026-10-09 | untried |
 | precedents top20 | 2 | 2 | 5 | 57,508,152 | 11,501,630 | 7,188,519 | 7,188,519 | 2026-09-02 | 2026-09-02 | live |
 | model-name stems as images | 1 | 4 | 224 | 2,597,400,432 | 11,595,537 | 3,077,488 | 216,450,036 | 2026-10-12 | 2026-10-12 | spent |
+| fresh confirmed-only sound cores against yamyamok, own sound endings | 1 | 1 | 215 | 2,565,299,126 | 11,931,623 | 11,931,623 | 11,931,623 | 2026-10-12 | 2026-10-12 | untried |
 | execution quips, topic + function word triples, one speaker | 1 | 1 | 9 | 107,850,176 | 11,983,352 | 11,983,352 | 11,983,352 | 2026-10-06 | 2026-10-06 | untried |
 | pooled insert-delete sound alias r2 | 1 | 1 | 2 | 23,981,477 | 11,990,738 | 11,990,738 | 11,990,738 | 2026-10-10 | 2026-10-10 | untried |
 | cold war uncarried four-segment endings current | 1 | 1 | 5 | 60,407,129 | 12,081,425 | 12,081,425 | 12,081,425 | 2026-08-31 | 2026-08-31 | untried |
@@ -1089,6 +1090,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | suffix-chain completion | 2 | 2 | 10 | 187,289,550 | 18,728,955 | 10,404,975 | 10,404,975 | 2026-09-01 | 2026-09-01 | live |
 | modern image-to-material uncapped measured directory siblings | 1 | 1 | 37 | 694,835,592 | 18,779,340 | 18,779,340 | 18,779,340 | 2026-10-08 | 2026-10-08 | untried |
 | character insertion | 1 | 2 | 135 | 2,577,959,172 | 19,095,993 | 16,740,545 | 16,740,545 | 2026-08-24 | 2026-08-24 | live |
+| fresh confirmed-only sound cores against blackop7, own sound endings | 1 | 1 | 134 | 2,565,299,126 | 19,144,023 | 19,144,023 | 19,144,023 | 2026-10-12 | 2026-10-12 | untried |
 | ab snowball r1 visual: all cores x new endings | 1 | 9 | 46 | 901,101,864 | 19,589,170 | 6,619,910 | 95,017,300 | 2026-09-30 | 2026-10-06 | spent |
 | voice phrase grids, probe with 3.07m phrases on two speakers per category | 1 | 1 | 18 | 355,930,140 | 19,773,896 | 19,773,896 | 19,773,896 | 2026-10-05 | 2026-10-05 | untried |
 | token edits mat cap30 | 1 | 1 | 4 | 79,362,695 | 19,840,673 | 19,840,673 | 19,840,673 | 2026-09-03 | 2026-09-03 | untried |
@@ -1122,8 +1124,8 @@ table under a name you would not have guessed is the thing you are about to rebu
 | ab snowball r6 sound: new cores x all endings | 1 | 2 | 3 | 77,000,770 | 25,666,923 | 19,250,192 | 19,250,192 | 2026-10-01 | 2026-10-01 | live |
 | cold war, uncarried five-segment endings | 1 | 1 | 382 | 9,963,115,100 | 26,081,453 | 26,081,453 | 26,081,453 | 2026-08-23 | 2026-08-23 | untried |
 | yamyamok verified image heads with target-held conventions | 1 | 1 | 106 | 2,787,447,000 | 26,296,669 | 26,296,669 | 26,296,669 | 2026-10-09 | 2026-10-09 | untried |
-| tails of length 3 | 1 | 264 | 422,054 | 11,124,500,414,962 | 26,358,002 | 1,196,677 | 64,898,664,610 | 2026-08-22 | 2026-10-12 | spent |
 | \ bo4 material token edits cap60 minseen1 20260830\ | 1 | 1 | 6 | 158,173,101 | 26,362,183 | 26,362,183 | 26,362,183 | 2026-08-30 | 2026-08-30 | untried |
+| tails of length 3 | 1 | 265 | 422,279 | 11,189,325,732,580 | 26,497,471 | 1,196,677 | 288,112,522 | 2026-08-22 | 2026-10-12 | spent |
 | sound uncarried three-segment endings top32000 | 2 | 2 | 88 | 2,360,521,764 | 26,824,110 | 20,004,421 | 40,698,651 | 2026-09-09 | 2026-09-09 | live |
 | open-slot english words, deep | 1 | 2 | 97 | 2,618,852,272 | 26,998,477 | 26,254,828 | 27,894,235 | 2026-10-01 | 2026-10-01 | live |
 | tails of length 1 | 1 | 1 | 1 | 27,486,426 | 27,486,426 | 27,486,426 | 27,486,426 | 2026-09-03 | 2026-09-03 | untried |
@@ -1226,6 +1228,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | char substitutions cw | 1 | 3 | 41 | 3,975,824,680 | 96,971,333 | 66,239,055 | 265,122,255 | 2026-08-24 | 2026-08-25 | cooling |
 | ab snowball r2 visual: new cores x every known tail | 1 | 10 | 91 | 9,063,493,348 | 99,598,828 | 17,964,497 | 458,733,730 | 2026-10-01 | 2026-10-06 | spent |
 | confirmed-only all-boundary cores x uncarried two-segment endings | 1 | 2 | 79 | 7,918,179,181 | 100,230,116 | 59,160,293 | 59,160,293 | 2026-09-01 | 2026-09-01 | live |
+| sound cores x the legacy sound ending list, against mwii | 1 | 1 | 16 | 1,610,992,890 | 100,687,055 | 100,687,055 | 100,687,055 | 2026-10-12 | 2026-10-12 | untried |
 | sound path three-word slots | 1 | 1 | 1 | 101,772,379 | 101,772,379 | 101,772,379 | 101,772,379 | 2026-10-05 | 2026-10-05 | untried |
 | cold war suffix precedents resume | 1 | 1 | 3 | 310,645,123 | 103,548,374 | 103,548,374 | 103,548,374 | 2026-09-01 | 2026-09-01 | untried |
 | ab snowball r1 sound: all cores x new endings | 1 | 1 | 2 | 209,071,300 | 104,535,650 | 104,535,650 | 104,535,650 | 2026-10-01 | 2026-10-01 | untried |
@@ -1691,7 +1694,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon vocabulary growth, then attachment unfolding | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 | names already found and verified, but never sent | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 
-1613 distinct methods, run 1985 ways between them, across 5686 runs. `names` is what each run
+1616 distinct methods, run 1988 ways between them, across 5692 runs. `names` is what each run
 found new to the machine that ran it. A blank candidate count means no run of that method
 recorded one, so it cannot be ranked -- see `--unattributed`.
 <!-- END GENERATED REGISTRY -->

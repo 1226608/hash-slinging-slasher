@@ -22,15 +22,15 @@
 
 <table>
 <tr><th align="left"><code>blackop7/</code></th>
-<th align="right" colspan="2">303,626 names in 5 file(s)</th>
+<th align="right" colspan="2">303,631 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
-<tr><td><code>material</code></td><td align="right">67,990</td><td align="right">173,275 / 388,231 &nbsp;(44.6%)</td></tr>
+<tr><td><code>material</code></td><td align="right">67,991</td><td align="right">173,276 / 388,231 &nbsp;(44.6%)</td></tr>
 <tr><td><code>image</code></td><td align="right">27,697</td><td align="right">90,663 / 839,489 &nbsp;(10.8%)</td></tr>
-<tr><td><code>xanim</code></td><td align="right">8,813</td><td align="right">90,334 / 97,260 &nbsp;(92.9%)</td></tr>
+<tr><td><code>xanim</code></td><td align="right">8,815</td><td align="right">90,336 / 97,260 &nbsp;(92.9%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">56,147</td><td align="right">155,772 / 399,776 &nbsp;(39.0%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">142,979</td><td align="right">165,483 / 254,502 &nbsp;(65.0%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">142,981</td><td align="right">165,485 / 254,502 &nbsp;(65.0%)</td></tr>
 </table>
 
 </td>
@@ -76,15 +76,15 @@
 
 <table>
 <tr><th align="left"><code>modwar22/</code></th>
-<th align="right" colspan="2">174,034 names in 5 file(s)</th>
+<th align="right" colspan="2">174,665 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
-<tr><td><code>material</code></td><td align="right">120,418</td><td align="right">221,087 / 230,876 &nbsp;(95.8%)</td></tr>
-<tr><td><code>image</code></td><td align="right">6,083</td><td align="right">124,567 / 307,431 &nbsp;(40.5%)</td></tr>
-<tr><td><code>xanim</code></td><td align="right">9,934</td><td align="right">54,930 / 55,778 &nbsp;(98.5%)</td></tr>
+<tr><td><code>material</code></td><td align="right">120,419</td><td align="right">221,088 / 230,876 &nbsp;(95.8%)</td></tr>
+<tr><td><code>image</code></td><td align="right">6,162</td><td align="right">124,646 / 307,431 &nbsp;(40.5%)</td></tr>
+<tr><td><code>xanim</code></td><td align="right">9,943</td><td align="right">54,939 / 55,778 &nbsp;(98.5%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">2,172</td><td align="right">48,083 / 249,863 &nbsp;(19.2%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">35,427</td><td align="right">45,346 / 147,867 &nbsp;(30.7%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">35,969</td><td align="right">45,888 / 147,867 &nbsp;(31.0%)</td></tr>
 </table>
 
 </td>
@@ -110,15 +110,15 @@
 
 <table>
 <tr><th align="left"><code>yamyamok/</code></th>
-<th align="right" colspan="2">186,930 names in 5 file(s)</th>
+<th align="right" colspan="2">186,994 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
-<tr><td><code>material</code></td><td align="right">84,525</td><td align="right">200,567 / 221,679 &nbsp;(90.5%)</td></tr>
-<tr><td><code>image</code></td><td align="right">13,941</td><td align="right">156,360 / 436,889 &nbsp;(35.8%)</td></tr>
+<tr><td><code>material</code></td><td align="right">84,528</td><td align="right">200,570 / 221,679 &nbsp;(90.5%)</td></tr>
+<tr><td><code>image</code></td><td align="right">13,942</td><td align="right">156,361 / 436,889 &nbsp;(35.8%)</td></tr>
 <tr><td><code>xanim</code></td><td align="right">1,147</td><td align="right">63,361 / 64,407 &nbsp;(98.4%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">33,937</td><td align="right">186,486 / 291,343 &nbsp;(64.0%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">53,380</td><td align="right">65,051 / 166,718 &nbsp;(39.0%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">53,440</td><td align="right">65,111 / 166,718 &nbsp;(39.1%)</td></tr>
 </table>
 
 </td>
