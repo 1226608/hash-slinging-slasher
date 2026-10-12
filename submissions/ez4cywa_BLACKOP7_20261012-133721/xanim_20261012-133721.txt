@@ -1,0 +1,2 @@
+59d5014aebca3426,ai_chi_mp_dawg_idle_01
+7e645c3ccc5b1154,civ_backoff_idle_01
