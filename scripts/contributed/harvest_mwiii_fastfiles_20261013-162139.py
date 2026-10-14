@@ -1,6 +1,6 @@
 """Candidate names read out of an installed Call of Duty: Modern Warfare III build.
 
-    python logs/mwiii_filenames.py > logs/mwiii_candidates.txt
+    python scripts/contributed/harvest_mwiii_fastfiles_20261013-162139.py --folder "<install>/cod23" > logs/mwiii_candidates.txt
 
 Reads:  <install>/cod23/*.ff   -- the shipped fast-file names, which are asset names.
 Writes: candidate names on standard output, one per line.
@@ -12,15 +12,21 @@ containers were never surveyed. The payload of these `.ff` files is packed -- me
 characters across the first 8 MB of each of six sampled files, two of which are the
 filename repeated. So the file *names* are the whole harvest, and that is this script.
 """
+import argparse
 import glob
 import os
 import sys
 
-ROOT = r"D:\SteamLibrary\steamapps\common\Call of Duty Modern Warfare III\cod23"
+
 
 
 def main():
-    paths = sorted(glob.glob(os.path.join(ROOT, "*.ff")))
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("--folder", required=True, help="explicit cod23 fast-file directory")
+    args = parser.parse_args()
+    if not os.path.isdir(args.folder):
+        parser.error("--folder must be an existing directory")
+    paths = sorted(glob.glob(os.path.join(args.folder, "*.ff")))
     print("fast files: %d" % len(paths), file=sys.stderr)
 
     seen = set()
