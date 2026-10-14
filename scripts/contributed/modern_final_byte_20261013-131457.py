@@ -36,18 +36,16 @@ multiple of the prime, and the relation inverts:
 
     u = (h(prefix) ^ byte) * prime   =>   byte = (u * prime_inverse) ^ h(prefix)
 
-Nothing is hashed per candidate: for each unnamed id and each of the 256 bytes there is one dict
-lookup against the set of prefixes of names already known to be real.
+Nothing is hashed per candidate: for each unnamed id and each printable ASCII byte there is one dict
+lookup against names already known to be real, with their last character removed.
 
 Two things differ from the legacy script, and both are the whole point:
 
 - **The basis is per pool**, read from the same policy the Rust side uses, so the lookup is
   against hashes the game actually produced. `sound_alias` keeps the Treyarch basis.
-- **The width is per pool.** `src/games.rs::output_key` keeps all 64 bits for a modern alias and
-  clears bit 63 for everything else. Solving a masked id is still exact: multiplication by the
-  (odd) prime inverse maps the ideal 2^63 to itself, so `id` mod 2^63 determines `prefix` mod
-  2^63, and the byte only touches the low eight bits. Solving an unmasked alias id without that
-  reduction is what the alias pool needs.
+- **Lookup always uses 63 bits**, including sound aliases: captured IDs clear bit 63.
+  The odd prime is invertible modulo 2^63. Confirmation restores all 64 bits for
+  modern sound-alias output after hashing the solved name again.
 
 Every solved name is hashed back and compared before it is printed, at the pool's own width.
 That check is not belt and braces -- it is what separates a solved name from a plausible one, and
@@ -68,6 +66,8 @@ while _root != os.path.dirname(_root) and not os.path.isfile(
     os.path.join(_root, "scripts", "snapshot.py")
 ):
     _root = os.path.dirname(_root)
+if not os.path.isfile(os.path.join(_root, "scripts", "snapshot.py")):
+    raise SystemExit("Run inside a hash-slinging-slasher checkout")
 sys.path.insert(0, os.path.join(_root, "scripts"))
 
 import snapshot  # noqa: E402
@@ -99,14 +99,14 @@ def basis_for(kind):
 
 
 def width_for(kind):
-    """`src/games.rs::output_key`: a modern alias keeps bit 63, everything else clears it."""
-    return M64 if kind == "sound_alias" else ID_MASK
+    """Captured lookup width; output width is restored by confirm_list."""
+    return ID_MASK
 
 
 def fnv1a(name, basis):
     """The game's hash: lower cased, backslashes folded, run from the pool's own offset."""
     value = basis
-    for byte in name.strip().lower().replace("\\", "/").encode("utf-8", "replace"):
+    for byte in name.strip().translate(str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')).replace("\\", "/").encode("utf-8", "replace"):
         value = ((value ^ byte) * PRIME) & M64
     return value
 
@@ -118,27 +118,12 @@ def seed_names(game, kind):
     was found under, and it is the game's own corpus rather than everybody's mixed together.
     """
     names = set(snapshot.table_names(*TABLES[kind]))
+    names.update(snapshot.confirmed_names(kind))
+    shot = snapshot.read(snapshot_path(game))
+    ids = set(shot.by_pool().get(kind, []))
+    return {name for name in names if len(name) >= 2
+            and fnv1a(name, basis_for(kind)) & ID_MASK in ids}
 
-    for path in (
-        os.path.join(_root, "all_names", game.lower(), kind + ".txt"),
-    ):
-        if os.path.exists(path):
-            with open(path, encoding="utf-8", errors="replace") as handle:
-                for line in handle:
-                    _, _, name = line.partition(",")
-                    name = (name or "").strip() or line.strip()
-                    if name:
-                        names.add(name)
-
-    for path in glob.glob(os.path.join(_root, "findings", game.lower(), kind + "*.txt")):
-        with open(path, encoding="utf-8", errors="replace") as handle:
-            for line in handle:
-                _, _, name = line.partition(",")
-                name = (name or "").strip() or line.strip()
-                if name:
-                    names.add(name)
-
-    return {name for name in names if len(name) >= 2}
 
 
 def snapshot_path(game):
@@ -149,9 +134,10 @@ def snapshot_path(game):
 
 
 def solve(prefixes, ids, basis, width):
-    """{name: id} for every unnamed id one final printable byte away from a known prefix."""
+    """{name: id} for every unnamed id a known seed with its final printable ASCII character replaced."""
     table = {}
-    for name in prefixes:
+    for seed in prefixes:
+        name = seed[:-1]
         key = fnv1a(name, basis) & width
         table.setdefault(key, name)
 
@@ -160,7 +146,7 @@ def solve(prefixes, ids, basis, width):
         # (id * inverse) mod width is the masked prefix hash the id wants, and the byte only
         # touches the low eight bits, so one lookup per byte answers for the whole alphabet.
         scaled = (value * PRIME_INVERSE) & width
-        for byte in range(256):
+        for byte in range(33, 127):
             prefix = table.get(scaled ^ byte)
             if prefix is None:
                 continue
